@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>em?</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>abra esse site em variosdispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="imagens/Sem-Título-3.jpg" alt="imagem flessivel">
+    </picture>
+
+    <p>pra fazer isso voce usara 3 tag, <strong>picture , source:media:type e img </strong> dentro da tag img coloque a maior imagem,depos colque o source acima do img mais abaixo da picture dentro da media mudeo (min-whdht) para (max-widht) e depos do : colque o tamanho da imagen mais 50 (1050px) e no srcset coloque a imagem menor ate chega nao menor das menor</p>
+
+    <h2>bote em ordem maior>media>pequena, se nao,nao funcionara</h2>
+
+
+    <h1> reproduzindo audio</h1>
+    <audio src="midia/ssstik.io_1742072841436.mp3"controls autoplay>tocar audio</audio>
+<h2>essa maneira nao pega em todos os navegadores, <strong>entao bora pra outra</strong></h2>
+
+   <audio> 
+    <source src="midia/ssstik.io_1742072841436.mp3" type="audio/mpeg">
+
+
+    <h1><strong>cara,dificilmente usaremos videos ou aydios nos nossos sites,mas se precisar entao asistia a aula 33 e 34 do modulo 1 do guanabra</strong></h1>
+
+
+   </audio>
+</body>
+</html>
