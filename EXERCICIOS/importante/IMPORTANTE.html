@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de CSS explicado</title>
+  <style>
+    /* O estilo geral do corpo */
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px; /* Espaço interno dentro do body */
+    }
+
+    .exemplo {
+      padding: 20px;         /* Espaço entre o conteúdo e a borda */
+      border: 2px solid red; /* Borda vermelha de 2px */
+      margin: 20px;          /* Espaço fora da caixa, separando ela de outras */
+      line-height: 1.5;      /* Altura da linha, facilita leitura */
+      text-decoration: underline; /* Sublinhar o texto */
+      font-variant: small-caps;   /* Deixa tudo em maiúsculas pequenas */
+      text-align: center;         /* Centraliza o texto */
+      min-width: 200px;           /* Largura mínima do bloco */
+      max-width: 500px;           /* Largura máxima do bloco */
+      display: block;             /* Faz o elemento ocupar uma linha inteira */
+      background-color: #f0f0f0;  /* Cor de fundo cinza claro */
+    }
+
+    /* Usando unidades diferentes */
+    .unidades {
+      font-size: 16px; /* Tamanho da fonte em pixels (tamanho fixo) */
+      padding: 2em;    /* Espaço interno relativo ao tamanho da fonte */
+      width: 50vw;     /* Largura igual a 50% da largura da tela */
+      height: 20vh;    /* Altura igual a 20% da altura da tela */
+      border: 1px dashed blue;
+      margin-top: 20px;
+      background-color: #e0f7ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Exemplo com várias propriedades CSS</h2>
+
+  <div class="exemplo">
+    Este bloco tem padding, border, margin,<br>
+    line-height, text-decoration, font-variant,<br>
+    text-align, min-width, max-width e display.
+  </div>
+
+  <div class="unidades">
+    Aqui usamos px, em, vw e vh<br>
+    px = tamanho fixo<br>
+    em = relativo ao tamanho da fonte<br>
+    vw = porcentagem da largura da tela<br>
+    vh = porcentagem da altura da tela
+  </div>
+
+</body>
+</html>
